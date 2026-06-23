@@ -1,8 +1,8 @@
 # Quantitative Research on MOEX
 
-Personal research project: systematic search for alpha on the Moscow Exchange using publicly available data. The focus is on strategies that survive realistic transaction costs (Tinkoff Trader tariff: 0.05% equities, 0.04% futures) and can be implemented with a small starting capital.
+Search for alpha on the Moscow Exchange using publicly available data. The focus is on strategies that survive realistic transaction costs and can be implemented with a small starting capital.
 
-**Data sources:** MOEX ISS API (free, no auth), MOEX AlgoPack (5-min microstructure data, local cache), Tinkoff Invest API (fundamentals, order execution).
+**Data sources:** MOEX ISS API, MOEX AlgoPack, Tinkoff Invest API.
 
 **Infrastructure:** three live bots on a VPS  Gap Fade Si, Dividend Run-Up, and Momentum  collecting real paper-trading statistics since June 2026.
 
